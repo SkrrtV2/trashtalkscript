@@ -1,0 +1,25 @@
+--Module
+local shittalk = 
+
+--Keybind
+local keybind = "q"
+
+--Variables
+local plr = game.Players.LocalPlayer
+local mouse = plr:GetMouse()
+
+--Script
+mouse.KeyDown:connect(function(key)
+    if key == keybind then
+
+        --Enter text
+shittalk:Create("dont patch speed/focus up son.")
+shittalk:Create("run my hours.")
+shittalk:Create("your so bad dont duck.")
+shittalk:Create("lol airshotted so bad.")
+shittalk:Create("dont patch speed glitch i barely use it")
+
+
+
+end
+        end)
